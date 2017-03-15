@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvMiku_Des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/miku_des"
+            android:textSize="22sp"/>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imgSnow"
+        android:layout_width="@dimen/stand_img_width"
+        android:layout_height="@dimen/stand_img_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:layout_marginRight="@dimen/margin_16dp"
+        android:src="@mipmap/snow"/>
+</RelativeLayout>
